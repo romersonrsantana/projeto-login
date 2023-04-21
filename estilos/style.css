@@ -38,9 +38,12 @@ section#login{
     height: 500px;
     border-radius: 21px;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.452);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 } 
 
-section#login > div#imagen{
+section#login > div#imagem{
     display: block;
     background: #5f2c82 url(../imagens/img-login.jpg) no-repeat;
     background-size: cover;
